@@ -13,7 +13,7 @@ w = {n * sum(x * y) - sum(x) * sum(y)} / {n * sum(x**2) - (sum(x)**2)}
 Intercept formula:
 
 ```text
-b = (y - mean) - (w * (x - mean))
+b = (y_mean) - (w * (x_mean))
 ```
 
 This notebook does not use scikit-learn by any means. It is based only on pure maths.
