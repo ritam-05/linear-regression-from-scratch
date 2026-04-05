@@ -11,6 +11,9 @@ ENV/
 # Jupyter
 .ipynb_checkpoints/
 
+# Datasets
+*.csv
+
 # Local environment files
 .env
 .python-version
